@@ -17,6 +17,11 @@ app.get("/", (req, res) => {
 /**
  * - Use Routes
  */
+
+app.get("/", (req, res) => {
+    res.send("Ledger Service is up and running")
+})
+
 app.use(express.json())
 app.use(cookieParser())
 
