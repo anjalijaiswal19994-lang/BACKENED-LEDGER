@@ -10,10 +10,6 @@ const transactionRoutes = require("./routes/transaction.routes")
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Hello World");
-});
-
 /**
  * - Use Routes
  */
